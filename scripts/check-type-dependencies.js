@@ -87,7 +87,7 @@ function checkTypes(pkg) {
   );
   const deps = (typeDecl.match(/from '.*'/g) || [])
     .map(match => match.replace(/from '(.*)'/, '$1'))
-    .filter(n => !n.startsWith('.'));
+    .filter(n => !n.startsWith('.') && !n.startsWith(`${pkg.name}/`));
 
   const errors = [];
   const typeDeps = [];

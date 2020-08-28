@@ -8,6 +8,8 @@ If you encounter issues while upgrading to a newer version, don't hesitate to re
 
 > Collect changes for the next release below
 
+- Bumped to TypeScript 4
+
 ## v0.1.1-alpha.20
 
 - Includes https://github.com/spotify/backstage/pull/2097 to resolve issues with create-plugin command.
