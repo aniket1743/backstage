@@ -31,6 +31,7 @@ better yet, a pull request.
     - [Overview](features/software-catalog/index.md)
     - [System model](features/software-catalog/system-model.md)
     - [YAML File Format](features/software-catalog/descriptor-format.md)
+    - [Configuration](features/software-catalog/configuration.md)
     - [Extending the model](features/software-catalog/extending-the-model.md)
     - [External integrations](features/software-catalog/external-integrations.md)
     - [API](features/software-catalog/api.md)
